@@ -2,13 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Responsive Web Design and You</title>  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Web Design and You</title> 
+  <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/css/normalize.css" rel="stylesheet">
 </head>
 <body>
-  <header><h1>Responsive Web Design</h1></header>
-  <div>
+  <div class="container">
+  <div class="page-header">
+    <header><h1>Responsive Web Design</h1></header>
+  <div class="jumbotron">
     <h3>Why is RWD important?</h3>
     <p>With the vast sizes and shapes of screens that the someoneone coming to a website could possibly have, you have to consider designing a website that is viewable on all these various sizes of screens, and even adjust whether or not the screen is turn to the horizontal position or the vertical position. Not only does thewebsite has to be viewable, but it should be aesthetically pleasing to the viewer and be functional. When a person views a site that is not responsive to mobile or viewable on smaller screens, the viewer can be put off, and this leads to less traffic to the site and in turn less business. A website that is adaptable can lead to more views, increase of returning viewers, as well as look cool. RWD that has mobile capacity increases viewership, this is because many viewer will look a business up on their phone, having a mobile friendly site is very important, if a site is not adaptable to a certain sized screen it can deter people from a business.</p>
+  </div>
     <form>
       <label>Are you interested in learnng more about RWD?</label>
       <input onclick="document.getElementById('submit').disabled = false; document.getElementById('charstype').disabled = true;" type="radio" name="interest"> HECK YES!
@@ -22,12 +29,7 @@
       
       
     </form>
-    <script>
-      function myFunction() {
-        document.getElementById("notinterested").disabled = true;
-        
-      }
-    </script>
+  </div>
   </div>
 </body>
 
